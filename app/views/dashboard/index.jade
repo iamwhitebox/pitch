@@ -1,0 +1,9 @@
+extends ../layouts/default
+
+block main
+  - var name = user.name ? user.name : user.username
+  h1= name
+
+  ul
+    each article in articles
+      li: a(href='/articles/'+article._id, title=article.title) #{article.title}

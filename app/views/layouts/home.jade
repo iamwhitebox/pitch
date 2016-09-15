@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  include ../includes/head.jade
+  body
+    include ../includes/header.jade
+    .hero-unit
+    .container
+      .page-header
+        block main
+      .messages
+        include ../includes/messages.jade
+      .content.row
+        block content
+    include ../includes/footer.jade
+    include ../includes/foot.jade

@@ -1,0 +1,18 @@
+extends ../layouts/home
+
+.hero-unit
+
+block main
+  h1.page-title= title
+
+block content
+  - if (articles.length)
+    - each article in articles
+        include article
+
+    - if (pages > 1)
+      ul.pagination
+        != createPagination(pages, page)
+  - else
+    h4.muted No articles.&nbsp;
+      a(href="/articles/new") create one
