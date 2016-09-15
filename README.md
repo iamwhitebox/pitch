@@ -1,13 +1,13 @@
-# Pitch
+# Pit`h
 
 Pitch is a crowdfunding platform for residental real estate investors.
 
 ## Boilerplate
 
-Want to build something from scratch? use the [boilerplate](https://github.com/madhums/node-express-mongoose)
+Want to build something from scratch? use the [boilerplate](https://github.com/iamwhitebox/pitch)
 
-* Checkout the [apps that are built using this approach](https://github.com/madhums/node-express-mongoose/wiki/Apps-built-using-this-approach)
-* The [wiki](https://github.com/madhums/node-express-mongoose/wiki) is wip, it has some information about the way application is setup.
+* Checkout the [apps that are built using this approach](https://github.com/iamwhitebox/pitch/wiki/Apps-built-using-this-approach)
+* The [wiki](https://iamwhitebox/pitch/wiki) is wip, it has some information about the way application is setup.
 
 ## Requirements
 
