@@ -1,4 +1,4 @@
-# Pit`h
+# Pitch
 
 Pitch is a crowdfunding platform for residental real estate investors.
 
